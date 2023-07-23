@@ -17,5 +17,6 @@ public class APIBook {
 	private String editor;
 	private int year;
 	private double price;
+	private String path;
 	private List<String> categories = new ArrayList<>();
 }

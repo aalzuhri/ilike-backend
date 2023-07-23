@@ -29,4 +29,14 @@ public class CategoryProcessor {
 		cts.forEach(res::add);
 		return res;
 	}
+
+	public Category deleteCategory(String category) {
+		Category res = rep.getCategoryRep().findById(category).orElse(null);
+		
+		if (res == null)
+			return null;
+		rep.getCategoryRep().delete(res);
+		
+		return res;
+	}
 }

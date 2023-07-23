@@ -12,4 +12,7 @@ public class GRepository {
 	@Autowired private BookRepository bookRep;
 	@Autowired private OrderRepository orderRep;
 	@Autowired private UserRepository userRep;
+	@Autowired private TokenRepository tokenRep;
+	@Autowired private ReviewRepository reviewRep;
+	@Autowired private ItemRepository itemRep;
 }

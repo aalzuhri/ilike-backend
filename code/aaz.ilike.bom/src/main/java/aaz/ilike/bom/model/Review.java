@@ -1,5 +1,6 @@
 package aaz.ilike.bom.model;
 
+import org.springframework.data.annotation.Id;
 import org.springframework.data.annotation.Reference;
 
 import com.google.cloud.spring.data.datastore.core.mapping.Entity;
@@ -13,6 +14,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Entity
 public class Review {
+	@Id private String id;
 	private String userId;
 	private String comment;
 	private float note;

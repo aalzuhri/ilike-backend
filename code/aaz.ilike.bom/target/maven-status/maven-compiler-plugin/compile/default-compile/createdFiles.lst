@@ -1,0 +1,16 @@
+aaz\ilike\bom\model\Token.class
+aaz\ilike\bom\reps\OrderRepository.class
+aaz\ilike\bom\model\IUser$IUserBuilder.class
+aaz\ilike\bom\model\Category.class
+aaz\ilike\bom\model\Token$TokenBuilder.class
+aaz\ilike\bom\reps\GRepository.class
+aaz\ilike\bom\reps\TokenRepository.class
+aaz\ilike\bom\model\Cart.class
+aaz\ilike\bom\model\Review.class
+aaz\ilike\bom\reps\BookRepository.class
+aaz\ilike\bom\reps\CategoryRepository.class
+aaz\ilike\bom\model\IUser.class
+aaz\ilike\bom\reps\UserRepository.class
+aaz\ilike\bom\model\Item.class
+aaz\ilike\bom\model\Order.class
+aaz\ilike\bom\model\Book.class
